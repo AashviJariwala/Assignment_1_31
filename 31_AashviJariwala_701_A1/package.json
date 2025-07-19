@@ -1,0 +1,25 @@
+{
+  "name": "assignment_1_employee",
+  "version": "1.0.0",
+  "description": "A simple employee package to return name and designation",
+  "main": "index.js",
+  "files": ["Q11/index.js"],
+  "scripts": {
+    "test": "echo \"Test file\" && exit 1",
+    "server": "node Q8/server.js",
+    "hello": "node Q8/hello.js",
+    "goodbye": "node Q8/goodbye.js",
+    "status": "node Q8/status.js"
+  },
+  "keywords": [
+    "employee",
+    "name",
+    "designation"
+  ],
+  "author": "Aashvi Jariwala aashvijariwala.mscit22@vnsgu.ac.in",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
